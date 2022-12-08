@@ -23,12 +23,15 @@ $n$ is the assumed operational lifetime of the facility.
 The apparent simplicity of the LCoE model hides a few important issues:
 - Expected utilisation of the facility being modelled
 - Learning curve rates associated with nascent technologies
-- Economies of scale and/or scope of output.
+- Economies of scale and/or scope of output
+- The facility being modelled is a new facility.
 
 These assumptions are implicit within the forecast output $O_t$ and some of the cost items such as $I_t$. 
 The LCoE is effectively a lifetime unit cost calculation and unit costs are affected by all three implicit assumptions. 
 
-The learning curve effect represents a downward shift of unit cost, so timing of investment is critical since it ties a facility to a specific vintage of capital. 
+The learning curve effect represents a downward shift of unit cost over its operational lifetime, so timing of investment is critical since it ties a facility to a specific vintage of capital. The presumption being that later vintages of facility technology will imply a lower unit cost and LCoE than the current vintage. For example, photovoltaic panel efficiency is currently 15% to 20% efficient whereas future panel efficiency could be in the 25% to 30% range. This implies a higher yield from future technologies. 
+
+Economies of scale represent a movement along a unit cost curve and is directly tied to both the capacity of the facility typically measured in megawatts (MW) and capacity factor (i.e.)
 
 ## References
 “Levelized Cost of Electricity.” 2022. In _Wikipedia_. [https://en.wikipedia.org/w/index.php?title=Levelized_cost_of_electricity&oldid=1111686277](https://en.wikipedia.org/w/index.php?title=Levelized_cost_of_electricity&oldid=1111686277).
