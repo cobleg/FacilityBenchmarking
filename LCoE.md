@@ -31,7 +31,11 @@ The LCoE is effectively a lifetime unit cost calculation and unit costs are affe
 
 The learning curve effect represents a downward shift of unit cost over its operational lifetime, so timing of investment is critical since it ties a facility to a specific vintage of capital. The presumption being that later vintages of facility technology will imply a lower unit cost and LCoE than the current vintage. For example, photovoltaic panel efficiency is currently 15% to 20% efficient whereas future panel efficiency could be in the 25% to 30% range. This implies a higher yield from future technologies. 
 
-Economies of scale represent a movement along a unit cost curve and is directly tied to both the capacity of the facility typically measured in megawatts (MW) and capacity factor (i.e.)
+Economies of scale represent a movement along a unit cost curve and is directly tied to both the capacity of the facility typically measured in megawatts (MW) and capacity factor (i.e. utilisation). 
+
+Economies of scope across facilities that provide more than one service may mean that joint production of services results in a lower unit cost as the production of each service increases. 
+
+Facility age affects the maximum output over time. Aged facilities will likely be producing less than the facility did it was initially commissioned. Moreover, the aged facility will be utilising an earlier vintage of technology. For example, an old open cycle gas turbine will have less fuel economy than a more recent vintage.
 
 ## References
 “Levelized Cost of Electricity.” 2022. In _Wikipedia_. [https://en.wikipedia.org/w/index.php?title=Levelized_cost_of_electricity&oldid=1111686277](https://en.wikipedia.org/w/index.php?title=Levelized_cost_of_electricity&oldid=1111686277).
