@@ -149,14 +149,14 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "5e4dbc199d826efd",
+  "active": "2fdced3fd1aa8ded",
   "lastOpenFiles": [
     "Introduction.md",
     "LCoE.md"

@@ -6,4 +6,16 @@ The LCoE is calculated as:
 $$
 LCoE = \frac{\text{sum of lifetime cost}}{\text{sum of lifetime energy produced}}
 $$
+$$
+LCoE = \frac{\Sigma_{t=1}^{n}\frac{I_t+M_t+E_t}{(1+r)^t}}{\Sigma_{t=1}^{n}\frac{O_t}{(1+r)^t}}
+$$
+[@LevelizedCostElectricity2022]
 
+where
+$I_t$ is investment expenditure in year $t$
+$M_t$ is operations and maintenance cost in year $t$
+$E_t$ is expenditure on primary energy in year $t$
+$0 \lt r \le 1$ is discount rate
+
+## References
+“Levelized Cost of Electricity.” 2022. In _Wikipedia_. [https://en.wikipedia.org/w/index.php?title=Levelized_cost_of_electricity&oldid=1111686277](https://en.wikipedia.org/w/index.php?title=Levelized_cost_of_electricity&oldid=1111686277).
