@@ -21,4 +21,17 @@ The precise design of a cost benchmarking model is guided by user's needs. The l
 - Levelised Cost of Energy: Policy evaluation of alternative technologies.
 
 ### Marginal cost model 
-A marginal cost model is
+A marginal cost model informs the likely change in price offers presented to an electricity market. The core idea is that the cost of supplying a unit of electrical power varies with the amount of electrical power being supplied. 
+
+#### Short-run marginal cost
+For a short-run marginal cost model, only costs that vary with output are included. This will include input cost items such as:
+- Variable operating and maintenance cost
+- Purchase cost of primary energy
+- Start-up and shut-down costs
+
+Various techno-economic parameters are required to translate the input cost into output cost, such as heat rates for various types of fuel-based electricity generation facilities. The level of utilisation and frequency of start-up and shut-down are also relevant.
+
+#### Long-run marginal cost
+A long-run marginal cost model includes the efficient total cost of building and operating a facility over the expected operating life of the facility. The qualifier `efficient` signifies that any cost deemed not essential to installing and preparing a facility for operation is to be excluded. The most likely candidate for exclusion is corporate overhead cost.
+
+The expected return on capital will also be included in long-run marginal cost based on reference to the expected yield of existing assets that present a similar risk-return 
