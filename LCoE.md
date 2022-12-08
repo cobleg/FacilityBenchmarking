@@ -15,7 +15,10 @@ where
 $I_t$ is investment expenditure in year $t$
 $M_t$ is operations and maintenance cost in year $t$
 $E_t$ is expenditure on primary energy in year $t$
-$0 \lt r \le 1$ is discount rate
+$0 \lt r \le 1$ is the discount rate used to reflect the opportunity cost of waiting
+$O_t$ is the output quantity in year $t$
+
+
 
 ## References
 “Levelized Cost of Electricity.” 2022. In _Wikipedia_. [https://en.wikipedia.org/w/index.php?title=Levelized_cost_of_electricity&oldid=1111686277](https://en.wikipedia.org/w/index.php?title=Levelized_cost_of_electricity&oldid=1111686277).

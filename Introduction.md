@@ -50,7 +50,7 @@ The focus of a project finance cost model is to identify the expected return fro
 The main output is an expected total return on asset with a confidence interval under alternative scenarios. Scenarios typically represent low, medium and high demand for the facility output.
 
 ### Levelised cost of energy
-Levelised cost of energy (LCoE) is typically used by policy makers and market analysts that need a way of creating a cost ranking alternative facilities that produce energy. This may be used as part of a multi-criteria analysis in which policy makers are considering a range of trade-offs between policy objectives.
+Levelised cost of energy ([LCoE](LCoE.md)) is typically used by policy makers and market analysts that need a way of creating a cost ranking alternative facilities that produce energy. This may be used as part of a multi-criteria analysis in which policy makers are considering a range of trade-offs between policy objectives.
 
 LCoE provides a basis for comparison that smoothes out the lumpy costs that can occur when a facility is being constructed or installed as well as varying expected operating lives and levels of utilisation.
 
