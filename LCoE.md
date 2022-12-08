@@ -38,7 +38,9 @@ Economies of scope across facilities that provide more than one service may mean
 Facility age affects the maximum output over time. Aged facilities will likely be producing less than the facility did it was initially commissioned. Moreover, the aged facility will be utilising an earlier vintage of technology. For example, an old open cycle gas turbine will have less fuel economy than a more recent vintage.
 
 ## Average versus marginal cost
-The prospect of a dynamic unit cost implies that the underlying LCoE assumption of average cost equal to marginal cost is not valid. In using the standard LCoE fo
+The prospect of a dynamic unit cost implies that the underlying LCoE assumption of average cost equal to marginal cost is not valid. In using the standard LCoE formulation, the basis of comparison is strictly static. With year-to-year variation in capacity factor, this could restriction could render the analysis useless.
+
+
 
 ## References
 “Levelized Cost of Electricity.” 2022. In _Wikipedia_. [https://en.wikipedia.org/w/index.php?title=Levelized_cost_of_electricity&oldid=1111686277](https://en.wikipedia.org/w/index.php?title=Levelized_cost_of_electricity&oldid=1111686277).
