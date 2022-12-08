@@ -51,12 +51,22 @@ Marginal cost is defined as the change in total cost as output changes.  [@2008I
 System LCoE of a technology is defined as the sum of generation costs and integration costs per generation unit from a specific technology (e.g. wind power). [@ueckerdtSystemLCOEWhat2013]
 
 $$
-sLCoE_{vre} = \overline{LCoE}_{vre}+I
+sLCoE_{vre} = \overline{LCoE}_{vre}+\Delta I
 $$
 where
 $sLCoE_{vre}$ is the system LCoE cost imposed by variable renewable energy systems
 $\overline{LCoE}_{vre}$ is the marginal generation cost of variable renewable energy in per-MWh
 $I$ is the integration cost
+
+Note that 
+
+$$
+\Delta I = \frac{dC_{int}}{dE_{vre}}
+$$
+where
+$C_{int}$ is the cost of integration
+$E_{vre}$ is electrical power produced by the additional variable renewable energy system
+
 
 
 
