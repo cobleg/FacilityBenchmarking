@@ -40,8 +40,13 @@ Facility age affects the maximum output over time. Aged facilities will likely b
 ## Average versus marginal cost
 The prospect of a dynamic unit cost implies that the underlying LCoE assumption of average cost equal to marginal cost is not valid. In using the standard LCoE formulation, the basis of comparison is strictly static. With year-to-year variation in capacity factor, this could restriction could render the analysis useless.
 
-### Increasing share of variab
+### Increasing share of variable renewable energy facilities
+Marginal cost is defined as the change in total cost as output changes.  [@2008InterpretationShort] In an electrical system, a change in the share of variable renewable energy facility production in total system output imposes an incremental cost of integration. This cost of integration implies an additional component of marginal cost. [Marginal cost](Introduction#Marginal cost.md) 
+
 
 
 ## References
+
+“2008 Interpretation of Short Run Marginal Cost - Economic Regulation Authority Western Australia.” n.d. Accessed November 19, 2022. [https://www.erawa.com.au/electricity/wholesale-electricity-market/regulatory-papers/2008-interpretation-of-short-run-marginal-cost](https://www.erawa.com.au/electricity/wholesale-electricity-market/regulatory-papers/2008-interpretation-of-short-run-marginal-cost).
+
 “Levelized Cost of Electricity.” 2022. In _Wikipedia_. [https://en.wikipedia.org/w/index.php?title=Levelized_cost_of_electricity&oldid=1111686277](https://en.wikipedia.org/w/index.php?title=Levelized_cost_of_electricity&oldid=1111686277).
