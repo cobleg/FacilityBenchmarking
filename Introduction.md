@@ -31,7 +31,24 @@ For a short-run marginal cost model, only costs that vary with output are includ
 
 Various techno-economic parameters are required to translate the input cost into output cost, such as heat rates for various types of fuel-based electricity generation facilities. The level of utilisation and frequency of start-up and shut-down are also relevant.
 
+The main model output is a short-run supply curve.
+
 #### Long-run marginal cost
 A long-run marginal cost model includes the efficient total cost of building and operating a facility over the expected operating life of the facility. The qualifier `efficient` signifies that any cost deemed not essential to installing and preparing a facility for operation is to be excluded. The most likely candidate for exclusion is corporate overhead cost.
 
-The expected return on capital will also be included in long-run marginal cost based on reference to the expected yield of existing assets that present a similar risk-return 
+The expected return on capital will also be included in long-run marginal cost based on reference to the expected yield of existing assets that present a similar risk-return profile compared to the facility being modelled.
+
+The main output is a long-run supply curve
+
+### Project finance cost model
+The focus of a project finance cost model is to identify the expected return from the facility and its risk profile. The risk profile will encompass elements such as:
+- Variation of input cost over the operating life of the facility
+- Variation in output cost
+- Variation in facility output under a alternative scenarios typically related to market competition and weather conditions.
+- Risk of technological obsolescence, which threatens to truncate the profitable life of the facility
+
+The main output is an expected total return on asset with a confidence interval under alternative scenarios. Scenarios typically represent low, medium and high demand for the facility output.
+
+### Levelised cost of energy
+Levelised cost of energy is typically used by policy makers and market analysts that need a
+
