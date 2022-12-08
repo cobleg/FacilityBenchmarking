@@ -40,6 +40,7 @@ Facility age affects the maximum output over time. Aged facilities will likely b
 ## Average versus marginal cost
 The prospect of a dynamic unit cost implies that the underlying LCoE assumption of average cost equal to marginal cost is not valid. In using the standard LCoE formulation, the basis of comparison is strictly static. With year-to-year variation in capacity factor, this could restriction could render the analysis useless.
 
+### Increasing share of variab
 
 
 ## References
