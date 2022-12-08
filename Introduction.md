@@ -21,14 +21,14 @@ The precise design of a cost benchmarking model is guided by user's needs. The l
 - Levelised Cost of Energy: Policy evaluation of alternative technologies.
 
 ### Marginal cost model 
-A marginal cost model informs the likely change in price offers presented to an electricity market. The core idea is that the cost of supplying a unit of electrical power varies with the amount of electrical power being supplied. 
+A marginal cost model informs the likely change in price offers presented to an electricity market. The core idea is that the cost of supplying a unit of electrical power varies with the amount of electrical power being supplied. [@2008InterpretationShort]
 
 #### Short-run marginal cost
 For a short-run marginal cost model, only costs that vary with output are included. This will include input cost items such as:
 - Variable operating and maintenance cost
 - Purchase cost of primary energy
 - Cost of pollution, e.g. $CO_2$-e emissions
-- Start-up and shut-down costs
+- Start-up and shut-down costs [@2008InterpretationShort]
 
 Various techno-economic parameters are required to translate the input cost into output cost, such as heat rates for various types of fuel-based electricity generation facilities. The level of utilisation and frequency of start-up and shut-down are also relevant.
 
@@ -51,9 +51,11 @@ The focus of a project finance cost model is to identify the expected return fro
 The main output is an expected total return on asset with a confidence interval under alternative scenarios. Scenarios typically represent low, medium and high demand for the facility output.
 
 ### Levelised cost of energy
-Levelised cost of energy ([LCoE](LCoE.md)) is typically used by policy makers and market analysts that need a way of creating a cost ranking alternative facilities that produce energy. This may be used as part of a multi-criteria analysis in which policy makers are considering a range of trade-offs between policy objectives.
+Levelised cost of energy ([LCoE](LCoE.md)) is typically used by policy makers and market analysts that need a way of creating a unit cost ranking of alternative facilities that produce energy. This may be used as part of a multi-criteria analysis in which policy makers are considering a range of trade-offs between policy objectives.
 
 LCoE provides a basis for comparison that smoothes out the lumpy costs that can occur when a facility is being constructed or installed as well as varying expected operating lives and levels of utilisation.
 
 The main output of an average cost of output over a specified time interval. 
 
+# References
+“2008 Interpretation of Short Run Marginal Cost - Economic Regulation Authority Western Australia.” n.d. Accessed November 19, 2022. [https://www.erawa.com.au/electricity/wholesale-electricity-market/regulatory-papers/2008-interpretation-of-short-run-marginal-cost](https://www.erawa.com.au/electricity/wholesale-electricity-market/regulatory-papers/2008-interpretation-of-short-run-marginal-cost).
