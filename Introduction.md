@@ -27,6 +27,7 @@ A marginal cost model informs the likely change in price offers presented to an 
 For a short-run marginal cost model, only costs that vary with output are included. This will include input cost items such as:
 - Variable operating and maintenance cost
 - Purchase cost of primary energy
+- Cost of pollution, e.g. $CO_2$-e emissions
 - Start-up and shut-down costs
 
 Various techno-economic parameters are required to translate the input cost into output cost, such as heat rates for various types of fuel-based electricity generation facilities. The level of utilisation and frequency of start-up and shut-down are also relevant.
