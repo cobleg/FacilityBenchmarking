@@ -24,7 +24,8 @@ The apparent simplicity of the LCoE model hides a few important issues:
 - Expected utilisation of the facility being modelled
 - Learning curve rates associated with nascent technologies
 - Economies of scale and/or scope of output
-- The facility being modelled is a new facility.
+- The facility being modelled is a new facility
+- There are no system integration costs.
 
 These assumptions are implicit within the forecast output $O_t$ and some of the cost items such as $I_t$. 
 The LCoE is effectively a lifetime unit cost calculation and unit costs are affected by all three implicit assumptions. 
@@ -37,6 +38,8 @@ Economies of scope across facilities that provide more than one service may mean
 
 Facility age affects the maximum output over time. Aged facilities will likely be producing less than the facility did it was initially commissioned. Moreover, the aged facility will be utilising an earlier vintage of technology. For example, an old open cycle gas turbine will have less fuel economy than a more recent vintage.
 
+The underlying facility technologies impose differing cost of system integration. For example, variable renewable energy systems (e.g. photovoltaic and wind power) impose additional contingency reserve costs in electricity systems. The standard LCoE formulation does not recognise this cost. On occasion, LCoE estimates include a penalty cost to correct for this omission. 
+
 ## Average versus marginal cost
 The prospect of a dynamic unit cost implies that the underlying LCoE assumption of average cost equal to marginal cost is not valid. In using the standard LCoE formulation, the basis of comparison is strictly static. With year-to-year variation in capacity factor, this could restriction could render the analysis useless.
 
@@ -46,6 +49,15 @@ Marginal cost is defined as the change in total cost as output changes.  [@2008I
 ## System LCoE
 
 System LCoE of a technology is defined as the sum of generation costs and integration costs per generation unit from a specific technology (e.g. wind power). [@ueckerdtSystemLCOEWhat2013]
+
+$$
+sLCoE_{vre} = \overline{LCoE}_{vre}+I
+$$
+where
+$sLCoE_{vre}$ is the system LCoE cost imposed by variable renewable energy systems
+$\overline{LCoE}_{vre}$ is the marginal generation cost of variable renewable energy in per-MWh
+$I$ is the integration cost
+
 
 
 
