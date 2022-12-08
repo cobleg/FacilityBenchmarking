@@ -45,8 +45,9 @@ Marginal cost is defined as the change in total cost as output changes.  [@2008I
 
 ## System LCoE
 
+System LCoE of a technology is defined as the sum of generation costs and integration costs per generation unit from a specific technology (e.g. wind power). [@ueckerdtSystemLCOEWhat2013]
 
-[@ueckerdtSystemLCOEWhat2013]
+
 
 [@matsuoReDefiningSystemLCOE2022]
 
@@ -58,3 +59,5 @@ Marginal cost is defined as the change in total cost as output changes.  [@2008I
 “Levelized Cost of Electricity.” 2022. In _Wikipedia_. [https://en.wikipedia.org/w/index.php?title=Levelized_cost_of_electricity&oldid=1111686277](https://en.wikipedia.org/w/index.php?title=Levelized_cost_of_electricity&oldid=1111686277).
 
 Matsuo, Yuhji. 2022. “Re-Defining System LCOE: Costs and Values of Power Sources.” _Energies_ 15 (18, 18): 6845. [https://doi.org/10.3390/en15186845](https://doi.org/10.3390/en15186845).
+
+Ueckerdt, Falko, Lion Hirth, Gunnar Luderer, and Ottmar Edenhofer. 2013. “System LCOE: What Are the Costs of Variable Renewables?” _Energy_ 63 (December): 61–75. [https://doi.org/10.1016/j.energy.2013.10.072](https://doi.org/10.1016/j.energy.2013.10.072).
