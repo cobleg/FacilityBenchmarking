@@ -4,5 +4,6 @@ Levelised Cost of Energy (LCoE) is a measure of the averge net present cost of e
 The LCoE is calculated as:
 
 $$
-LCoE = \frac{\text{sum of lifetime cost}}{\text{sum of liftime energy produce}}
+LCoE = \frac{\text{sum of lifetime cost}}{\text{sum of lifetime energy produced}}
 $$
+
