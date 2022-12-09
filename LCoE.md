@@ -107,14 +107,15 @@ $$
 $$
 In words, this condition states that total system cost is minimised when the  sum of the change in direct VRE costs and the change in net cost of VRE integration is zero. 
 
-Rearranging the optimality condition
+Given Equation 5 the corresponding system LCoE equation is
 
 Equation 8:
-$$
-
-\text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}} = -\frac{d}{dE_{vre}} \left( \frac{E_{residual}}{E_{total}}C_{total}(0) \right)
 
 $$
+sLCoE_{total}=sLCoE_{vre}+\Delta+E_{residual}C_{total}(0)
+$$
+
+
 Note that a system without any VRE has a total system cost of
 
 Equation 9:
@@ -133,15 +134,9 @@ $$
 sLCoE_{conventional} = \frac{C_{total}(0)}{E_{total}}
 $$
 
-Using Equation 2 and Equation 3, the optimality condition can be restated as
 
-Equation11:
 
-$$
 
-\text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}} = -\frac{d}{dE_{vre}} \left( \frac{E_{residual}}{E_{total}}C_{total}(0) \right)
-
-$$
 
 As [@ueckerdtSystemLCOEWhat2013] highlights
 
