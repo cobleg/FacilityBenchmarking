@@ -146,9 +146,27 @@ which simplifies to
 Equation 7a:
 $$
 
-\text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}}+\frac{d}{dE_{vre}} \left(1 \right) + \frac{d}{dE_{vre}}\left(-\frac{E_{vre}}{E_{total}}C_{total}(0) \right) = 0
+\text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}}+\frac{d}{dE_{vre}} \left(1 \right) + \frac{d}{dE_{vre}}\left(-E_{vre}\frac{C_{total}(0)}{E_{total}} \right) = 0
 
 $$
+Noting that
+$$
+\frac{d}{dE_{vre}}\left( 1 \right)=0
+$$
+and
+$$
+\frac{d}{dE_{vre}}\left( -E_{vre}\frac{C_{total}(0)}{E_{total}}\right)=\frac{dE_{vre}}{dE_{vre}} \times \left( -\frac{C_{total}(0)}{E_{total}}\right)=-\frac{C_{total}(0)}{E_{total}}
+$$
+
+Equation 7a simplifies to
+
+Equation 7b:
+$$
+
+\text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}} -\frac{C_{total}(0)}{E_{total}} = 0
+
+$$
+
 
 
 
