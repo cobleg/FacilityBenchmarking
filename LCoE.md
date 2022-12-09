@@ -107,12 +107,24 @@ $$
 $$
 In words, this condition states that total system cost is minimised when the  sum of the change in direct VRE costs and the marginal net cost of VRE integration is zero. 
 
+From Equation 4 no VRE implies:
+
+$$
+C_{residual}-\frac{E_{residual}}{E_{total}}C_{total}(0)=0
+$$
+which can be restated as
+
+$$
+\frac{C_{residual}}{E_{residual}}=\frac{C_{total}(0)}{E_{total}}
+$$
+
+
 Given Equation 5 the corresponding system LCoE equation is
 
 Equation 8:
 
 $$
-sLCoE_{total}=sLCoE_{vre}+\Delta+E_{residual}C_{total}(0)
+sLCoE_{total}=sLCoE_{vre}+\Delta I+E_{residual}C_{total}(0)
 $$
  
 
