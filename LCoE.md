@@ -72,6 +72,17 @@ where
 $C_{int}$ is the cost of integration
 $E_{vre}$ is electrical power produced by the additional variable renewable energy system
 
+Since LCoE is the net present average cost, the corresponding total cost is
+
+$$
+C_{total}=C_{vre}+C_{residual}
+$$
+where
+$C_{vre}$ is the direct cost of VRE
+$C_{residual}$ is the balance of system cost
+
+In the case wWithout
+
 Definition of cost of integration is residual cost less the proportion of cost with no variable renewable energy system integration
 
 Equation 4:
@@ -101,10 +112,9 @@ $$
 From Equation 5a observe that a system with no VRE has total cost
 
 $$
-C_{total} = \frac{E_{total}-E_{vre}}{E_{total}}C_{total}(0)
+C_{total} = \frac{E_{total}}{E_{total}}C_{total}(0)
 
 $$
-
 
 The optimal level of variable renewable energy system deployment is determined by minimising total system cost
 
