@@ -60,7 +60,7 @@ $$
 where
 $sLCoE_{vre}$ is the system LCoE cost imposed by variable renewable energy systems
 $\overline{LCoE}_{vre}$ is the marginal generation cost of variable renewable energy in per-MWh
-$I$ is the integration cost
+$\Delta I$ is the integration cost
 
 Note that 
 
@@ -134,19 +134,31 @@ $$
 $$
 In words, this condition states that total lifetime system cost is minimised when the  sum of the marginal lifeetime cost of VRE and the marginal net cost of VRE integration is zero. 
 
+Using $E_{residual}=E_{total}-E_{vre}$ Equation 7 can be restated as
+
+$$
+
+\text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}}+\frac{d}{dE_{vre}} \left( \frac{E_{total}-E_{vre}}{E_{total}}C_{total}(0) \right) = 0
+
+$$
+which simplifies to
+
+Equation 7a:
+$$
+
+\text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}}+\frac{d}{dE_{vre}} \left( \left( 1-\frac{E_{vre}}{E_{total}}C_{total}(0) \right) = 0
+
+$$
+
+
+
+
 From Equation 5 no VRE implies:
 
 $$
 C_{residual}-\frac{E_{residual}}{E_{total}}C_{total}(0)=0
 $$
-which can be restated as
-  
-$$
-\frac{C_{residual}}{E_{residual}}=\frac{C_{total}(0)}{E_{total}}
-$$
 
-
-Given Equation 5 the corresponding system LCoE equation is
 
 ### Deriving system LCoE from total lifetime system cost
 
@@ -155,6 +167,14 @@ Divide total lifetime system cost (Equation 5a) by lifetime total output
 $$
 \frac{C_{total}}{E_{total}} = \frac{C_{vre}+C_{integration}}{E_{total}} + \frac{E_{total}-E_{vre}}{E_{total}} \times \frac{C_{total}(0)}{E_{total}}
 $$
+which can be restated as
+
+
+$$
+\frac{C_{total}}{E_{total}} = \frac{C_{vre}+C_{integration}}{E_{total}} + 1- \frac{E_{vre}}{E_{total}} \times \frac{C_{total}(0)}{E_{total}}
+$$
+
+
 
 Equation 6:
 
