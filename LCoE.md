@@ -148,6 +148,14 @@ $$
 
 Given Equation 5 the corresponding system LCoE equation is
 
+### Deriving system LCoE from total lifetime system cost
+
+Divide total lifetime system cost by lifetime total output
+
+$$
+\frac{C_{total}}{E_{total}} = \frac{C_{vre}}{E_{total}} + C_{integration}+\frac{E_{residual}}{E_{total}}C_{total}(0)
+$$
+
 Equation 6:
 
 $$
