@@ -67,7 +67,13 @@ where
 $C_{int}$ is the cost of integration
 $E_{vre}$ is electrical power produced by the additional variable renewable energy system
 
-Definition of integrating
+Definition of cost of integration is residual cost less the proportion of cost with no variable renewable energy system integration
+
+$$
+C_{integration}=C_{residual}-\frac{E_{residual}}{E_{total}}C_{total}(0)
+$$
+where
+$C_{residual}$ is the system tiotal cost less the direct cost of variable renewable energy systems
 
 The optimal level of variable renewable energy system deployment is determined by minimising total system cost
 
