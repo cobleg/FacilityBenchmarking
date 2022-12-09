@@ -93,8 +93,12 @@ $$
 Using the total system cost defined as the sum of direct VRE costs and the integration cost, the optimality condition becomes
 
 $$
-\text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}}+\frac{d}{dE_{vre}} \left \( \frac{E_{residual}}{E_{total}}C_{total}(0) \right \)
+
+\text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}}+\frac{d}{dE_{vre}} \left( \frac{E_{residual}}{E_{total}}C_{total}(0) \right) = 0
+
 $$
+In words, this condition states that total system cost is minimised when the  sum of the change in direct VRE costs and the change in net cost of VRE integration is zero. 
+
 As [@ueckerdtSystemLCOEWhat2013] highlights
 
 
