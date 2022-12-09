@@ -82,7 +82,7 @@ where
 $C_{vre}$ is the direct cost of VRE
 $C_{residual}$ is the balance of system cost
 
-In the case without VRE, $C_{residual}=0$ and $C_{total}=C_{residual}$.
+In the case without VRE, $C_{vre}=0$ and $C_{total}=C_{residual}$.
 
 In the case with VRE capacity greater than zero,  define the cost of VRE integration as the residual cost less the proportion of cost with no VRE system integration
 
@@ -166,20 +166,32 @@ $$
 \text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}} -\frac{C_{total}(0)}{E_{total}} = 0
 
 $$
-
-
-
-
-
-From Equation 5 no VRE implies:
+Define the system total LCoE of a conventional system (i.e. without VRE capacity) as
 
 $$
-C_{residual}-\frac{E_{residual}}{E_{total}}C_{total}(0)=0
+sLCoE_{conventional}=\frac{C_{total}}{E_{total}}
+$$
+Using this definition in Equation 7b yields
+
+Equation 8:
+$$
+
+\text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}} =sLCoE_{conventional}
+
+$$
+Using Equation 3, this becomes
+
+$$
+
+\text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}} =sLCoE_{conventional}
+
 $$
 
 
+
+
+This result shows that minimal lifetime system cost is achieved by setting 
 ### Deriving system LCoE from total lifetime system cost
-
 Divide total lifetime system cost (Equation 5a) by lifetime total output
 
 $$
