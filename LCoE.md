@@ -105,7 +105,7 @@ $$
 \text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}}+\frac{d}{dE_{vre}} \left( \frac{E_{residual}}{E_{total}}C_{total}(0) \right) = 0
 
 $$
-In words, this condition states that total system cost is minimised when the  sum of the change in direct VRE costs and the change in net cost of VRE integration is zero. 
+In words, this condition states that total system cost is minimised when the  sum of the change in direct VRE costs and the marginal net cost of VRE integration is zero. 
 
 Given Equation 5 the corresponding system LCoE equation is
 
