@@ -74,6 +74,7 @@ $E_{vre}$ is electrical power produced by the additional variable renewable ener
 
 Since LCoE is the net present average cost, the corresponding total cost is
 
+Equation 4:
 $$
 C_{total}=C_{vre}+C_{residual}
 $$
@@ -81,11 +82,11 @@ where
 $C_{vre}$ is the direct cost of VRE
 $C_{residual}$ is the balance of system cost
 
-In the case wWithout
+In the case without VRE, $C_{residual}=0$ and $C_{total}=C_{residual}$.
 
-Definition of cost of integration is residual cost less the proportion of cost with no variable renewable energy system integration
+In the case with VRE define the cost of VRE integration as the residual cost less the proportion of cost with no VRE system integration
 
-Equation 4:
+Equation 5:
 $$
 C_{integration}=C_{residual}-\frac{E_{residual}}{E_{total}}C_{total}(0)
 $$
