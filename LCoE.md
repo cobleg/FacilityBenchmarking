@@ -84,15 +84,17 @@ This definition of the cost of integration permits decomposition of total system
 $$
 C_{total} = C_{vre} + C_{integration}+\frac{E_{residual}}{E_{total}}C_{total}(0)
 $$
-
 The optimal level of variable renewable energy system deployment is determined by minimising total system cost
 
 $$
 \text{min }C_{total} \implies \frac{dC_{total}}{dE_{vre}}=0
 $$
 
+Using the total system cost defined as the sum of direct VRE costs and the integration cost, the optimality condition becomes
 
-
+$$
+\text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}}+\frac{d}{dE_{vre}} \left \( \frac{E_{residual}}{E_{total}}C_{total}(0) \right \)
+$$
 As [@ueckerdtSystemLCOEWhat2013] highlights
 
 
