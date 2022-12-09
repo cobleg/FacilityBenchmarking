@@ -169,7 +169,7 @@ $$
 Define the system total LCoE of a conventional system (i.e. without VRE capacity) as
 
 $$
-sLCoE_{conventional}=\frac{C_{total}}{E_{total}}
+sLCoE_{conventional}=\frac{C_{total}(0)}{E_{total}}
 $$
 Using this definition in Equation 7b yields
 
@@ -183,59 +183,20 @@ Using Equation 3, this becomes
 
 $$
 
-\text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}} =sLCoE_{conventional}
+\text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\Delta I=sLCoE_{conventional}
 
 $$
-
-
-
-
-This result shows that minimal lifetime system cost is achieved by setting 
-### Deriving system LCoE from total lifetime system cost
-Divide total lifetime system cost (Equation 5a) by lifetime total output
-
-$$
-\frac{C_{total}}{E_{total}} = \frac{C_{vre}+C_{integration}}{E_{total}} + \frac{E_{total}-E_{vre}}{E_{total}} \times \frac{C_{total}(0)}{E_{total}}
-$$
-which can be restated as
-
-
-$$
-\frac{C_{total}}{E_{total}} = \frac{C_{vre}+C_{integration}}{E_{total}} + 1- \frac{E_{vre}}{E_{total}} \times \frac{C_{total}(0)}{E_{total}}
-$$
-
-
-
-Equation 6:
-
-$$
-sLCoE_{total}=sLCoE_{vre}+\Delta I+E_{residual}C_{total}(0)
-$$
- 
-
-Note that a system without any VRE has a total system cost of
+Now observe that the lifetime marginal cost of VRE is the $LCoE_{vre}$ which implies
 
 Equation 9:
-
-$$
-C_{total}=C_{conventional}
-$$
-where
-$C_{conventional}=C_{total}(0)$
-
-with a corresponding average net present cost of
-
-Equation 10:
-
-$$
-sLCoE_{conventional} = \frac{C_{total}(0)}{E_{total}}
 $$
 
+\text{min }C_{total} \implies LCoE_{vre}+\Delta I=sLCoE_{conventional}
 
+$$
 
+This result shows that minimal lifetime system cost is achieved by setting the sum of LCoE for VRE and the integration cost at the conventional system LCoE.
 
-
-As [@ueckerdtSystemLCOEWhat2013] highlights
 
 
 [@matsuoReDefiningSystemLCOE2022]
