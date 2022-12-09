@@ -1,6 +1,7 @@
 Levelised Cost of Energy (LCoE) is a measure of the averge net present cost of energy that a facility of a specified type will produce over its expected operating life.
 
 ## Formulation
+### Standard formulation
 The LCoE is calculated as:
 
 $$
@@ -77,15 +78,22 @@ $C_{residual}$ is the system total cost less the direct cost of variable renewab
 $E_{residual}$ is the remaining electrical power required to satisfy the demand for electrical power after variable renewable energy systems has exhausted its capacity.
 $E_{total}$ is the total electrical power required to satisfy demand
 $C_{total}(0)$ is the total system cost with no variable renewable energy capacity.
-
-This effectively 
  
+This definition of the cost of integration permits decomposition of total system cost into
+
+$$
+C_{total} = C_{vre} + C_{integration}+\frac{E_{residual}}{E_{total}}C_{total}(0)
+$$
+
 The optimal level of variable renewable energy system deployment is determined by minimising total system cost
 
 $$
 \text{min }C_{total} \implies \frac{dC_{total}}{dE_{vre}}=0
 $$
 
+
+
+As [@ueckerdtSystemLCOEWhat2013] highlights
 
 
 [@matsuoReDefiningSystemLCOE2022]
