@@ -70,7 +70,7 @@ $$
 $$
 where
 $C_{integration}$ is the cost of integration
-$E_{vre}$ is electrical power produced by the additional variable renewable energy system
+$E_{vre}$ is the lifetime electrical power produced by the additional variable renewable energy system
 
 The corresponding lifetime system total cost is
 
@@ -96,13 +96,13 @@ $E_{residual}=E_{total}-E_{vre}$ is the remaining electrical power required to s
 $E_{total}$ is the total electrical power required to satisfy demand
 $C_{total}(0)$ is the total system cost with no variable renewable energy capacity.
 
-This definition of the cost of integration permits decomposition of total system cost into
+This definition of the cost of integration permits decomposition of total lieftime system cost (Equation 4) into
 
 Equation 5:
 $$
 C_{total} = C_{vre} + C_{integration}+\frac{E_{residual}}{E_{total}}C_{total}(0)
 $$
-Note that by definition of $E_{residual}$ Equation 5 can be restated as
+Note that by definition of $E_{residual}$, Equation 5 can be restated as
 
 Equation 5a:
 
@@ -110,14 +110,14 @@ $$
 C_{total} = C_{vre} + C_{integration}+\frac{E_{total}-E_{vre}}{E_{total}}C_{total}(0)
 $$
 
-From Equation 5a observe that a system with no VRE capacity installed has system total cost
+From Equation 5a observe that a system with no VRE capacity installed has system lifetime total cost
 
 $$
 C_{total} = \frac{E_{total}}{E_{total}}C_{total}(0)
 
 $$
 
-The optimal level of variable renewable energy system deployment is determined by minimising total system cost. The cost minimisation rule implies a first-order change in cost with respect to a small unit change in VRE output is set equal to zero
+The optimal level of variable renewable energy system deployment is determined by minimising total lifetime system cost. The cost minimisation rule implies a first-order change in cost with respect to a small unit change in lifetime VRE output is set equal to zero
 
 Equation 6:
 $$
@@ -132,9 +132,9 @@ $$
 \text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}}+\frac{d}{dE_{vre}} \left( \frac{E_{residual}}{E_{total}}C_{total}(0) \right) = 0
 
 $$
-In words, this condition states that total system cost is minimised when the  sum of the marginal cost of VRE and the marginal net cost of VRE integration is zero. 
+In words, this condition states that total lifetime system cost is minimised when the  sum of the marginal lifeetime cost of VRE and the marginal net cost of VRE integration is zero. 
 
-From Equation 4 no VRE implies:
+From Equation 5 no VRE implies:
 
 $$
 C_{residual}-\frac{E_{residual}}{E_{total}}C_{total}(0)=0
@@ -148,7 +148,7 @@ $$
 
 Given Equation 5 the corresponding system LCoE equation is
 
-Equation 8:
+Equation 6:
 
 $$
 sLCoE_{total}=sLCoE_{vre}+\Delta I+E_{residual}C_{total}(0)
