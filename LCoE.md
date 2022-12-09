@@ -86,7 +86,7 @@ In the case without VRE, $C_{residual}=0$ and $C_{total}=C_{residual}$.
 
 In the case with VRE define the cost of VRE integration as the residual cost less the proportion of cost with no VRE system integration
 
-Equation 5:
+Equation 5 :
 $$
 C_{integration}=C_{residual}-\frac{E_{residual}}{E_{total}}C_{total}(0)
 $$
@@ -117,14 +117,14 @@ C_{total} = \frac{E_{total}}{E_{total}}C_{total}(0)
 
 $$
 
-The optimal level of variable renewable energy system deployment is determined by minimising total system cost
+The optimal level of variable renewable energy system deployment is determined by minimising total system cost. The cost minimisation rule implies a first-order change in cost with respect to a small unit change in VRE output is set equal to zero
 
 Equation 6:
 $$
 \text{min }C_{total} \implies \frac{dC_{total}}{dE_{vre}}=0
 $$
 
-Using the total system cost defined as the sum of direct VRE costs and the integration cost, the optimality condition becomes
+Applying this rule to Equation 5 yields the optimality condition
 
 Equation 7:
 $$
@@ -132,7 +132,7 @@ $$
 \text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}}+\frac{d}{dE_{vre}} \left( \frac{E_{residual}}{E_{total}}C_{total}(0) \right) = 0
 
 $$
-In words, this condition states that total system cost is minimised when the  sum of the change in direct VRE costs and the marginal net cost of VRE integration is zero. 
+In words, this condition states that total system cost is minimised when the  sum of the marginal cost of VRE and the marginal net cost of VRE integration is zero. 
 
 From Equation 4 no VRE implies:
 
