@@ -114,7 +114,7 @@ Equation 8:
 $$
 sLCoE_{total}=sLCoE_{vre}+\Delta+E_{residual}C_{total}(0)
 $$
-
+ 
 
 Note that a system without any VRE has a total system cost of
 
