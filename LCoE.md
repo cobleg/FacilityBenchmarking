@@ -79,12 +79,10 @@ $$
 C_{integration}=C_{residual}-\frac{E_{residual}}{E_{total}}C_{total}(0)
 $$
 where
-$C_{residual}$ is the system total cost less the direct cost of variable renewable energy systems
-$E_{residual}$ is the remaining electrical power required to satisfy the demand for electrical power after variable renewable energy systems has exhausted its capacity.
+$C_{residual}=C_{total}-C_{vre}$ is the system total cost less the direct cost of variable renewable energy systems
+$E_{residual}=E_{total}-E_{vre}$ is the remaining electrical power required to satisfy the demand for electrical power after variable renewable energy systems has exhausted its capacity.
 $E_{total}$ is the total electrical power required to satisfy demand
 $C_{total}(0)$ is the total system cost with no variable renewable energy capacity.
-
-
 
 This definition of the cost of integration permits decomposition of total system cost into
 
@@ -92,6 +90,22 @@ Equation 5:
 $$
 C_{total} = C_{vre} + C_{integration}+\frac{E_{residual}}{E_{total}}C_{total}(0)
 $$
+Note that by definition of $E_{residual}$ Equation 5 can be restated as
+
+Equation 5a:
+
+$$
+C_{total} = C_{vre} + C_{integration}+\frac{E_{total}-E_{vre}}{E_{total}}C_{total}(0)
+$$
+
+From Equation 5a observe that a system with no VRE has total cost
+
+$$
+C_{total} = \frac{E_{total}-E_{vre}}{E_{total}}C_{total}(0)
+
+$$
+
+
 The optimal level of variable renewable energy system deployment is determined by minimising total system cost
 
 Equation 6:
