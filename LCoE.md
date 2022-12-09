@@ -83,7 +83,9 @@ $C_{residual}$ is the system total cost less the direct cost of variable renewab
 $E_{residual}$ is the remaining electrical power required to satisfy the demand for electrical power after variable renewable energy systems has exhausted its capacity.
 $E_{total}$ is the total electrical power required to satisfy demand
 $C_{total}(0)$ is the total system cost with no variable renewable energy capacity.
- 
+
+
+
 This definition of the cost of integration permits decomposition of total system cost into
 
 Equation 5:
@@ -113,7 +115,7 @@ $$
 C_{residual}-\frac{E_{residual}}{E_{total}}C_{total}(0)=0
 $$
 which can be restated as
-
+  
 $$
 \frac{C_{residual}}{E_{residual}}=\frac{C_{total}(0)}{E_{total}}
 $$
