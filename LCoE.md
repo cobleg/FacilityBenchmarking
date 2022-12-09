@@ -1,4 +1,4 @@
-Levelised Cost of Energy (LCoE) is a measure of the averge net present cost of energy that a facility of a specified type will produce over its expected operating life.
+Levelised Cost of Energy (LCoE) is a measure of the averge net present cost of energy that a facility of a specified type will produce over its expected operating life. Think of this as the lifetime unit (or average) cost.
 
 ## Formulation
 ### Standard formulation
@@ -66,13 +66,13 @@ Note that
 
 Equation 3:
 $$
-\Delta I = \frac{dC_{int}}{dE_{vre}}
+\Delta I = \frac{dC_{integration}}{dE_{vre}}
 $$
 where
-$C_{int}$ is the cost of integration
+$C_{integration}$ is the cost of integration
 $E_{vre}$ is electrical power produced by the additional variable renewable energy system
 
-Since LCoE is the net present average cost, the corresponding total cost is
+The corresponding lifetime system total cost is
 
 Equation 4:
 $$
@@ -84,7 +84,7 @@ $C_{residual}$ is the balance of system cost
 
 In the case without VRE, $C_{residual}=0$ and $C_{total}=C_{residual}$.
 
-In the case with VRE define the cost of VRE integration as the residual cost less the proportion of cost with no VRE system integration
+In the case with VRE capacity greater than zero,  define the cost of VRE integration as the residual cost less the proportion of cost with no VRE system integration
 
 Equation 5 :
 $$
@@ -110,7 +110,7 @@ $$
 C_{total} = C_{vre} + C_{integration}+\frac{E_{total}-E_{vre}}{E_{total}}C_{total}(0)
 $$
 
-From Equation 5a observe that a system with no VRE has total cost
+From Equation 5a observe that a system with no VRE capacity installed has system total cost
 
 $$
 C_{total} = \frac{E_{total}}{E_{total}}C_{total}(0)
