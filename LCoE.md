@@ -67,10 +67,12 @@ where
 $C_{int}$ is the cost of integration
 $E_{vre}$ is electrical power produced by the additional variable renewable energy system
 
+Definition of integrating
+
 The optimal level of variable renewable energy system deployment is determined by minimising total system cost
 
 $$
-\text{min }C_{total} => 
+\text{min }C_{total} \implies \frac{dC_{total}}{dE_{vre}}=0
 $$
 
 
