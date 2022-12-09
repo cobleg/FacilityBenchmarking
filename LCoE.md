@@ -74,6 +74,7 @@ $E_{vre}$ is electrical power produced by the additional variable renewable ener
 
 Definition of cost of integration is residual cost less the proportion of cost with no variable renewable energy system integration
 
+Equation 4:
 $$
 C_{integration}=C_{residual}-\frac{E_{residual}}{E_{total}}C_{total}(0)
 $$
@@ -85,17 +86,20 @@ $C_{total}(0)$ is the total system cost with no variable renewable energy capaci
  
 This definition of the cost of integration permits decomposition of total system cost into
 
+Equation 5:
 $$
 C_{total} = C_{vre} + C_{integration}+\frac{E_{residual}}{E_{total}}C_{total}(0)
 $$
 The optimal level of variable renewable energy system deployment is determined by minimising total system cost
 
+Equation 6:
 $$
 \text{min }C_{total} \implies \frac{dC_{total}}{dE_{vre}}=0
 $$
 
 Using the total system cost defined as the sum of direct VRE costs and the integration cost, the optimality condition becomes
 
+Equation 7:
 $$
 
 \text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}}+\frac{d}{dE_{vre}} \left( \frac{E_{residual}}{E_{total}}C_{total}(0) \right) = 0
@@ -105,12 +109,39 @@ In words, this condition states that total system cost is minimised when the  su
 
 Rearranging the optimality condition
 
+Equation 8:
 $$
 
 \text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}} = -\frac{d}{dE_{vre}} \left( \frac{E_{residual}}{E_{total}}C_{total}(0) \right)
 
 $$
+Note that a system without any VRE has a total system cost of
 
+Equation 9:
+
+$$
+C_{total}=C_{conventional}
+$$
+where
+$C_{conventional}=C_{total}(0)$
+
+with a corresponding average net present cost of
+
+Equation 10:
+
+$$
+sLCoE_{conventional} = \frac{C_{total}(0)}{E_{total}}
+$$
+
+Using Equation 2 and Equation 3, the optimality condition can be restated as
+
+Equation11:
+
+$$
+
+\text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}} = -\frac{d}{dE_{vre}} \left( \frac{E_{residual}}{E_{total}}C_{total}(0) \right)
+
+$$
 
 As [@ueckerdtSystemLCOEWhat2013] highlights
 
