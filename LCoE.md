@@ -4,9 +4,11 @@ Levelised Cost of Energy (LCoE) is a measure of the averge net present cost of e
 ### Standard formulation
 The LCoE is calculated as:
 
+Equation 1:
+
 $$
 LCoE = \frac{\text{sum of lifetime cost}}{\text{sum of lifetime energy produced}}
-$$
+$$ 
 $$
 LCoE = \frac{\Sigma_{t=1}^{n}\frac{I_t+M_t+E_t}{(1+r)^t}}{\Sigma_{t=1}^{n}\frac{O_t}{(1+r)^t}}
 $$
@@ -51,6 +53,7 @@ Marginal cost is defined as the change in total cost as output changes.  [@2008I
 
 System LCoE of a technology is defined as the sum of generation costs and integration costs per generation unit from a specific technology (e.g. wind power). [@ueckerdtSystemLCOEWhat2013]
 
+Equation 2:
 $$
 sLCoE_{vre} = \overline{LCoE}_{vre}+\Delta I
 $$
@@ -61,6 +64,7 @@ $I$ is the integration cost
 
 Note that 
 
+Equation 3:
 $$
 \Delta I = \frac{dC_{int}}{dE_{vre}}
 $$
@@ -98,6 +102,15 @@ $$
 
 $$
 In words, this condition states that total system cost is minimised when the  sum of the change in direct VRE costs and the change in net cost of VRE integration is zero. 
+
+Rearranging the optimality condition
+
+$$
+
+\text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\frac{dC_{integration}}{dE_{vre}} = -\frac{d}{dE_{vre}} \left( \frac{E_{residual}}{E_{total}}C_{total}(0) \right)
+
+$$
+
 
 As [@ueckerdtSystemLCOEWhat2013] highlights
 
