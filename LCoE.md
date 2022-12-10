@@ -195,7 +195,8 @@ $$
 
 $$
 
-This result shows that minimal lifetime system cost is achieved by setting the sum of LCoE for VRE and the integration cost at the conventional system LCoE.
+This result shows that minimal lifetime system cost is achieved by setting the sum of LCoE for VRE and the integration cost at the conventional system LCoE.  [@ueckerdtSystemLCOEWhat2013]
+
 
 
 
