@@ -10,9 +10,9 @@ This section contains a few definitions of concepts related to facility benchmar
 
 `Flexibility effect` is the impact on efficiency of conventional power plants for day-ahead operations.  [@ueckerdtSystemLCOEWhat2013]
 
-`Full-load hour` shows how many hours a power generating facility would take to make a specified amount of energy 
+`Full-load hour` shows how many hours a power generating facility would take to make a specified amount of energy. This is defined as the product of a facility's [capacity factor](https://en.wikipedia.org/wiki/Capacity_factor) and the number of hours in a standard year (i.e. 8,760 hours). This measure can be used to examine how many hours a year a facility needs to operate to be profitable [@FullloadHoursEnergy]
 
-`Full-load hour reduction` 
+`Full-load hour reduction` is the amount of hours in a standard year that a dispatchable facility is reduced due to the integration of variable renewable energy systems.
 
 `Grid cost` is the cost of connecting to the grid.
 
@@ -34,3 +34,8 @@ This section contains a few definitions of concepts related to facility benchmar
 
 ## References
 
+“Full-Load Hours – Energy Transition – The Wiki.” n.d. Accessed December 10, 2022. [https://wiki.energytransition.org/wiki/electrical-grid/full-load-hours/](https://wiki.energytransition.org/wiki/electrical-grid/full-load-hours/).
+
+“Security of Supply and System Adequacy.” n.d. Accessed December 10, 2022. [https://www.wind-energy-the-facts.org/security-of-supply-and-system-adequacy.html](https://www.wind-energy-the-facts.org/security-of-supply-and-system-adequacy.html).
+
+Ueckerdt, Falko, Lion Hirth, Gunnar Luderer, and Ottmar Edenhofer. 2013. “System LCOE: What Are the Costs of Variable Renewables?” _Energy_ 63 (December): 61–75. [https://doi.org/10.1016/j.energy.2013.10.072](https://doi.org/10.1016/j.energy.2013.10.072).
