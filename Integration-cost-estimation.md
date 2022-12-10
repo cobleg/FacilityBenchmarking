@@ -12,7 +12,7 @@ $$
 where
 $E_{residual}$ is the component of electrical power that is not supplied by VRE systems
 $E_{total}$ is the total electrical power supplied
-$C_{total}(0)$ is the total system cost
+$C_{total}(0)$ is the total lifetime system cost without VRE systems
 [@ueckerdtSystemLCOEWhat2013]
 
 
