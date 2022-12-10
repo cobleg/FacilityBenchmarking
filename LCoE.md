@@ -186,17 +186,20 @@ $$
 \text{min }C_{total} \implies \frac{dC_{vre}}{dE_{vre}}+\Delta I=sLCoE_{conventional}
 
 $$
-Now observe that the lifetime marginal cost of VRE is the $LCoE_{vre}$ which implies
+Now observe that the lifetime marginal cost of VRE is the $\overline{LCoE}_{vre}$ which implies
 
 Equation 9:
 $$
 
-\text{min }C_{total} \implies LCoE_{vre}+\Delta I=sLCoE_{conventional}
+\text{min }C_{total} \implies \overline{LCoE}_{vre}+\Delta I=sLCoE_{conventional}
 
 $$
 
 This result shows that minimal lifetime system cost is achieved by setting the sum of LCoE for VRE and the integration cost at the conventional system LCoE.  [@ueckerdtSystemLCOEWhat2013]
 
+Equation 9 presents several tasks:
+- [Integration cost estimation](Integration-cost-estimation.md) 
+- Data collection for the LCoE for VRE
 
 
 
