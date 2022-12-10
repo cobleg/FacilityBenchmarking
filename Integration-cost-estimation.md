@@ -15,5 +15,12 @@ $E_{total}$ is the total electrical power supplied
 $C_{total}(0)$ is the total lifetime system cost without VRE systems
 [@ueckerdtSystemLCOEWhat2013]
 
+Note that the integration cost of VRE is the additional cost in the residual power system that VRE impose compared to the benchmark.
+
+$$
+C_{integration}=C_{residual}-C_{residual}^{BM}
+$$
+
+
 
 # References
