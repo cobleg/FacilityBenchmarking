@@ -21,6 +21,8 @@ $$
 C_{integration}=C_{residual}-C_{residual}^{BM}
 $$
 
+The method to estimation of integration cost is to use a simulation model that compares a power system across Case 1 and Case 2 as defined above.
+
 
 
 # References

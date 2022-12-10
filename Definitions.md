@@ -22,7 +22,7 @@ This section contains a few definitions of concepts related to facility benchmar
 
 `Over-production cost` is the cost incurred from over-production. This is associated with variable renewable energy systems producing more electrical power than can be accommodated by an electrical system. This imposes cost such as system congestion and forcing other facilities to reduce output.  [@ueckerdtSystemLCOEWhat2013]
 
-`Profile cost` is the sum of over-production cost, full-load hour reduction and back-up costs induced by variable renewable energy systems. [@ueckerdtSystemLCOEWhat2013]
+`Profile cost` is the sum of over-production cost, full-load hour reduction and back-up costs induced by variable renewable energy systems. Profile cost is caused by fluctuations in VRE power generation profile [@ueckerdtSystemLCOEWhat2013]
 
 `Standard integration cost` is the cost of adding a standard (or conventional) electrical power generating facility to an electrical system. These consist of adequancy cost, balancing cost, grid cost.
 
