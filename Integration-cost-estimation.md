@@ -28,7 +28,16 @@ Integration cost can be quantified through the combination of the following func
 - screening curves
 - reverse load duration curve
 
-These 
+The key steps for this procedure are:
+1. Calculate the screening curves for each electricity supply technology deployed in a specified electricity system
+2. Calculate the load duration curve for the electricity system specified in step 1
+3. Create a rank order list of the deployed technology from lowest cost to highest cost
+4. Choose the lowest cost technology defined in the screening curve order as defined in step 3
+5. Calculate the residual reverse load duration curve as the difference between the reverse load duration curve and the full-load hour quantity of the lowest cost technology 
+6. Remove the lowest cost technology from the rank order list defined in step 3
+7. Repeat steps 4 to 6 (inclusive) until all of the reverse load area curve is allocated across technologies.
+
+The highest cost
 
 ### Screening curves
 Screening curves define the annual cost of facilities by `firm technology` over the period of a full year
@@ -41,7 +50,7 @@ $FC_i$ is the fixed cost of technology $i$ given an assumed capacity
 $CRF_{i}$ is an amortisation factor determined by the expected operational life of a facility of a specified technology. This is sometimes named the: carrying charge
 $FOM_i$ is the fixed operating and maintenance cost for technology $i$
 $VC_{y,i}$ is the variable cost of in year $y$ for technology $i$ 
-$FLH_i= CF_{y,i} \times 8760$  is the full-load hour output for technology $i$ where ($CF$ is capacity factor) 
+$FLH_i= CF_{y,i} \times 8760$  is the full-load hour output for technology $i$ where $CF$ is capacity factor 
 
 Screening curves for non-firm technology are calculated using a modified form of the firm technology screening curve equation
 
