@@ -42,26 +42,33 @@ The key steps for this procedure are:
 The total integration cost is the difference between the total system cost with non-firm technology less the total system cost without the non-firm technology. 
 
 $$
-C_{integration}=\Sigma_{y,i} C_{y,i} \times 
+C_{integration}=\Sigma_{i,y} C_{i,y} \times Q_{i,y}
 $$
+where 
+$C_{i,y}$ is the normalised screening cost for technology $i$ in year $y$ 
+$Q_{i,y}$ is the demand for electrical power supplied by technology $i$ in year $y$ 
+
+Note that the year subscript recognises the age and vintage of the technologies deployed in the electrical power system in a given year. The underlying assumptions are:
+1. That efficiency increases over successive vintages of each technology.
+2. Efficiency decreases with age of facilities of
 
 ### Screening curves
 Screening curves define the annual cost of facilities by `firm technology` over the period of a full year
 
 $$
-C_{y,i}=FC_{i} \times CRF_{i}+ FOM_{i}+VC_{y,i} \times FLH_{i}
+C_{i,y}=FC_{i} \times CRF_{i}+ FOM_{i}+VC_{i,y} \times FLH_{i}
 $$
 where
 $FC_i$ is the fixed cost of technology $i$ given an assumed capacity
 $CRF_{i}$ is an amortisation factor determined by the expected operational life of a facility of a specified technology. This is sometimes named the: carrying charge
 $FOM_i$ is the fixed operating and maintenance cost for technology $i$
 $VC_{y,i}$ is the variable cost of in year $y$ for technology $i$ 
-$FLH_i= CF_{y,i} \times 8760$  is the full-load hour output for technology $i$ where $CF$ is capacity factor 
+$FLH_i= CF_{i,y} \times 8760$  is the full-load hour output for technology $i$ where $CF$ is capacity factor 
 
 Screening curves for non-firm technology are calculated using a modified form of the firm technology screening curve equation
 
 $$
-C_{y,i}=FC_{i} \times \frac{CRF_{i}}{ECF_{i}}+ FOM_{i}+VC_{y,i} \times FLH_{i}
+C_{i,y}=FC_{i} \times \frac{CRF_{i}}{ECF_{i}}+ FOM_{i}+VC_{i,y} \times FLH_{i}
 $$
 where
 $ECF_{i} \le 1$ is the effective capacity factor for technology $i$ 
