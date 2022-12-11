@@ -50,7 +50,7 @@ $Q_{i,y}$ is the demand for electrical power supplied by technology $i$ in year 
 
 Note that the year subscript recognises the age and vintage of the technologies deployed in the electrical power system in a given year. The underlying assumptions are:
 1. That efficiency increases over successive vintages of each technology.
-2. Efficiency decreases with age of facilities of
+2. Efficiency decreases with age of facilities of each technology type with different rates of degradation across technologies.
 
 ### Screening curves
 Screening curves define the annual cost of facilities by `firm technology` over the period of a full year
@@ -81,8 +81,6 @@ A low value of $ECF$ amplifies the fixed cost component more than a high value o
 A load duration curve is a set ordered pairs of hours and demand for electrical power in order from highest demand to the lowest over a standard calendar year (i.e. 8,760 hours). This defines demand as a function of time such that $t=\{1,2,3,...,8760\}$. 
 
 A reverse load duration curve defines a set of order pairs of hours and demand from lowest demand to highest demand. 
-
-
 
 ## Decomposing integration cost
 
