@@ -2,7 +2,7 @@ Estimating the integration cost of variable renewable energy (VRE) systems requi
 1. Case 1: A system without VRE systems
 2. Case 2: A system with VRE systems
 
-Calculating the differene in total cost between Case 2 and Case 1 isolates the total integration cost.
+Calculating the difference in total cost between Case 2 and Case 1 isolates the total integration cost.
 
 The benchark is based on the residual cost as defined in the [LCoE](LCoE.md) note applied to a technology that does not impose integration costs.
 
@@ -23,6 +23,13 @@ $$
 
 The method to estimation of integration cost is to use a simulation model that compares a power system across Case 1 and Case 2 as defined above.
 
+## Quantifying integration costs
+Integration cost can be quantified through the combination of:
+- screening curves
+- load duration curve
+
+
+## Decomposing integration cost
 
 
 # References
