@@ -53,7 +53,8 @@ A low $ECF$ amplifies the fixed cost component
 
 [@pratamaScreeningCurveValuing2021]
 
-  
+### Load duration curve
+A load duration curve is an ordered pairs of hours and demand for electrical power in order from highest demand to the lowest over a standard calendar year (i.e. 8,760 hours). 
 
 
 
@@ -61,3 +62,6 @@ A low $ECF$ amplifies the fixed cost component
 
 
 # References
+Pratama, Yoga W., and Niall Mac Dowell. 2021. “Screening Curve for Valuing Power Generation and Storage Technologies in the 21st Century Grid.” SSRN Scholarly Paper. Rochester, NY. [https://doi.org/10.2139/ssrn.3821841](https://doi.org/10.2139/ssrn.3821841).
+
+Ueckerdt, Falko, Lion Hirth, Gunnar Luderer, and Ottmar Edenhofer. 2013. “System LCOE: What Are the Costs of Variable Renewables?” _Energy_ 63 (December): 61–75. [https://doi.org/10.1016/j.energy.2013.10.072](https://doi.org/10.1016/j.energy.2013.10.072).
