@@ -30,14 +30,15 @@ Integration cost can be quantified through the combination of the following func
 
 The key steps for this procedure are:
 1. Calculate the screening curves for each electricity supply technology deployed in a specified electricity system
-2. Calculate the load duration curve for the electricity system specified in step 1
-3. Create a rank order list of the deployed technology from lowest cost to highest cost
-4. Choose the lowest cost technology defined in the screening curve order as defined in step 3
-5. Calculate the residual reverse load duration curve as the difference between the reverse load duration curve and the full-load hour quantity of the lowest cost technology 
-6. Remove the lowest cost technology from the rank order list defined in step 3
-7. Repeat steps 4 to 6 (inclusive) until all of the reverse load area curve is allocated across technologies.
+2. Calculate the reverse load duration curve for the electricity system specified in step 1
+3. Calculate the intersection point coordinates between each pair of screening curves, segment the reverse load duration curve according to the hour coordinate of each intersection pair
+4. For each segment of the reverse load duration curve, create a rank order list of the deployed technology from lowest cost to highest cost
+5. Choose the lowest cost technology defined in the screening curve order as defined in step 4
+6. Calculate the residual reverse load duration curve as the difference between the reverse load duration curve and the full-load hour quantity of the lowest cost technology 
+7. Remove the lowest cost technology from the rank order list defined in step 3
+8. Repeat steps 4 to 6 (inclusive) until all of the reverse load area curve is allocated across technologies for each segment of the reverse load duration curve.
 
-The highest cost
+The total
 
 ### Screening curves
 Screening curves define the annual cost of facilities by `firm technology` over the period of a full year
