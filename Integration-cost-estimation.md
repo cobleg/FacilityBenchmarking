@@ -38,7 +38,7 @@ C_{y,i}=FC_{i} \times CRF_{i}+ FOM_{i}+VC_{y,i} \times FLH_{i}
 $$
 where
 $FC_i$ is the fixed cost of technology $i$
-$CRF_{i}$ is an amortisation factor determined by the expected operational life of a facility of a specified technolog
+$CRF_{i}$ is an amortisation factor determined by the expected operational life of a facility of a specified technology. This is sometimes named the: carrying charge
 $FOM_i$ is the fixed operating and maintenance cost for technology $i$
 $VC_{y,i}$ is the variable cost of in year $y$ for technology $i$ 
 $FLH_i$ is the full-load hour output for technology $i$
@@ -56,9 +56,9 @@ A low value of $ECF$ amplifies the fixed cost component more than a high value o
 [@pratamaScreeningCurveValuing2021]
 
 ### Load duration curve and reverse load duration curve
-A load duration curve is a set ordered pairs of hours and demand for electrical power in order from highest demand to the lowest over a standard calendar year (i.e. 8,760 hours). This defines demand as a function of time. 
+A load duration curve is a set ordered pairs of hours and demand for electrical power in order from highest demand to the lowest over a standard calendar year (i.e. 8,760 hours). This defines demand as a function of time such that $t=\{1,2,3,...,8760\}$. 
 
-A reverse load duration curve defines a se
+A reverse load duration curve defines a set of order pairs of hours and demand from lowest demand to highest demand. 
 
 
 
