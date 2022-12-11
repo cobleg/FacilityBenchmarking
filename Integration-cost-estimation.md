@@ -29,7 +29,7 @@ Integration cost can be quantified through the combination of the following func
 - reverse load duration curve
 
 The key steps for this procedure are:
-1. Calculate the screening curves for each electricity supply technology deployed in a specified electricity system
+1. Calculate the normalised screening curves for each electricity supply technology deployed in a specified electricity system. The normalised screening curve is in unit cost terms. For example, unit cost of $/kW
 2. Calculate the reverse load duration curve for the electricity system specified in step 1
 3. Calculate the intersection point coordinates between each pair of screening curves, segment the reverse load duration curve according to the hour coordinate of each intersection pair
 4. For each segment of the reverse load duration curve, create a rank order list of the deployed technology from lowest cost to highest cost
@@ -37,8 +37,13 @@ The key steps for this procedure are:
 6. Calculate the residual reverse load duration curve as the difference between the reverse load duration curve and the full-load hour quantity of the lowest cost technology 
 7. Remove the lowest cost technology from the rank order list defined in step 3
 8. Repeat steps 4 to 6 (inclusive) until all of the reverse load area curve is allocated across technologies for each segment of the reverse load duration curve.
+9. Calculate the total system cost as the sum product of the screening cost 
 
-The total
+The total integration cost is the difference between the total system cost with non-firm technology less the total system cost without the non-firm technology. 
+
+$$
+C_{integration}=\Sigma_{y,i} C_{y,i} \times 
+$$
 
 ### Screening curves
 Screening curves define the annual cost of facilities by `firm technology` over the period of a full year
