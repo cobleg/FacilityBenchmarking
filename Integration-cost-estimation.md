@@ -41,6 +41,8 @@ $FOM_i$ is the fixed operating and maintenance cost for technology $i$
 $VC_{y,i}$ is the variable cost of in year $y$ for technology $i$ 
 $FLH_i$ is the full-load hour output for technology $i$
 
+[@pratamaScreeningCurveValuing2021]
+
 
 
 
