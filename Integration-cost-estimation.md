@@ -28,6 +28,22 @@ Integration cost can be quantified through the combination of:
 - screening curves
 - load duration curve
 
+### Screening curves
+Screening curves define the annual cost of facilities by technology over the period of a full year
+
+$$
+C_{y,i}=FC_{i} \times CRF+ FOM_{i}+VC_{y,i} \times FLH_{i}
+$$
+where
+$FC_i$ is the fixed cost of technology $i$
+$CRF$ is an amortisation factor
+$FOM_i$ is the fixed operating and maintenance cost for technology $i$
+$VC_{y,i}$ is the variable cost of in year $y$ for technology $i$ 
+$FLH_i$ is the full-load hour output for technology $i$
+
+
+
+
 
 ## Decomposing integration cost
 
