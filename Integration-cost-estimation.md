@@ -29,7 +29,7 @@ Integration cost can be quantified through the combination of:
 - load duration curve
 
 ### Screening curves
-Screening curves define the annual cost of facilities by technology over the period of a full year
+Screening curves define the annual cost of facilities by conventional technology over the period of a full year
 
 $$
 C_{y,i}=FC_{i} \times CRF+ FOM_{i}+VC_{y,i} \times FLH_{i}
@@ -41,9 +41,11 @@ $FOM_i$ is the fixed operating and maintenance cost for technology $i$
 $VC_{y,i}$ is the variable cost of in year $y$ for technology $i$ 
 $FLH_i$ is the full-load hour output for technology $i$
 
+
+
 [@pratamaScreeningCurveValuing2021]
 
-
+  
 
 
 

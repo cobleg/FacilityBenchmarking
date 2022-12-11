@@ -8,6 +8,8 @@ This section contains a few definitions of concepts related to facility benchmar
 
 `Balancing cost` is the cost of maintaining the an alternating current electrical power system in balance at a target frequency. 
 
+`Firm technology` describes facilities that convert a stored (or storable) primary energy source (e.g. diesel, natural gas) into electrical power on demand
+
 `Flexibility effect` is the impact on efficiency of conventional power plants for day-ahead operations.  [@ueckerdtSystemLCOEWhat2013]
 
 `Full-load hour` shows how many hours a power generating facility would take to make a specified amount of energy. This is defined as the product of a facility's [capacity factor](https://en.wikipedia.org/wiki/Capacity_factor) and the number of hours in a standard year (i.e. 8,760 hours). This measure can be used to examine how many hours a year a facility needs to operate to be profitable [@FullloadHoursEnergy]
