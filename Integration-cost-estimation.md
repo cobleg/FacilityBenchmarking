@@ -24,19 +24,21 @@ $$
 The method to estimation of integration cost is to use a simulation model that compares a power system across Case 1 and Case 2 as defined above.
 
 ## Quantifying integration costs
-Integration cost can be quantified through the combination of:
+Integration cost can be quantified through the combination of the following functions:
 - screening curves
-- load duration curve
+- reverse load duration curve
+
+These 
 
 ### Screening curves
 Screening curves define the annual cost of facilities by `firm technology` over the period of a full year
 
 $$
-C_{y,i}=FC_{i} \times CRF+ FOM_{i}+VC_{y,i} \times FLH_{i}
+C_{y,i}=FC_{i} \times CRF_{i}+ FOM_{i}+VC_{y,i} \times FLH_{i}
 $$
 where
 $FC_i$ is the fixed cost of technology $i$
-$CRF$ is an amortisation factor
+$CRF_{i}$ is an amortisation factor determined by the expected operational life of a facility of a specified technolog
 $FOM_i$ is the fixed operating and maintenance cost for technology $i$
 $VC_{y,i}$ is the variable cost of in year $y$ for technology $i$ 
 $FLH_i$ is the full-load hour output for technology $i$
@@ -44,17 +46,19 @@ $FLH_i$ is the full-load hour output for technology $i$
 Screening curves for non-firm technology are calculated using a modified form of the firm technology screening curve equation
 
 $$
-C_{y,i}=FC_{i} \times \frac{CRF}{ECF_{i}}+ FOM_{i}+VC_{y,i} \times FLH_{i}
+C_{y,i}=FC_{i} \times \frac{CRF_{i}}{ECF_{i}}+ FOM_{i}+VC_{y,i} \times FLH_{i}
 $$
 where
 $ECF_{i} \le 1$ is the effective capacity factor for technology $i$ 
 
-A low $ECF$ amplifies the fixed cost component
+A low value of $ECF$ amplifies the fixed cost component more than a high value of $ECF$
 
 [@pratamaScreeningCurveValuing2021]
 
-### Load duration curve
-A load duration curve is an ordered pairs of hours and demand for electrical power in order from highest demand to the lowest over a standard calendar year (i.e. 8,760 hours). 
+### Load duration curve and reverse load duration curve
+A load duration curve is a set ordered pairs of hours and demand for electrical power in order from highest demand to the lowest over a standard calendar year (i.e. 8,760 hours). This defines demand as a function of time. 
+
+A reverse load duration curve defines a se
 
 
 
