@@ -29,7 +29,7 @@ Integration cost can be quantified through the combination of:
 - load duration curve
 
 ### Screening curves
-Screening curves define the annual cost of facilities by conventional technology over the period of a full year
+Screening curves define the annual cost of facilities by `firm technology` over the period of a full year
 
 $$
 C_{y,i}=FC_{i} \times CRF+ FOM_{i}+VC_{y,i} \times FLH_{i}
@@ -41,7 +41,15 @@ $FOM_i$ is the fixed operating and maintenance cost for technology $i$
 $VC_{y,i}$ is the variable cost of in year $y$ for technology $i$ 
 $FLH_i$ is the full-load hour output for technology $i$
 
+Screening curves for non-firm technology are calculated using a modified form of the firm technology screening curve equation
 
+$$
+C_{y,i}=FC_{i} \times \frac{CRF}{ECF_{i}}+ FOM_{i}+VC_{y,i} \times FLH_{i}
+$$
+where
+$ECF_{i} \le 1$ is the effective capacity factor for technology $i$ 
+
+A low $ECF$ amplifies the fixed cost component
 
 [@pratamaScreeningCurveValuing2021]
 

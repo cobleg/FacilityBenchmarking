@@ -8,7 +8,7 @@ This section contains a few definitions of concepts related to facility benchmar
 
 `Balancing cost` is the cost of maintaining the an alternating current electrical power system in balance at a target frequency. 
 
-`Firm technology` describes facilities that convert a stored (or storable) primary energy source (e.g. diesel, natural gas) into electrical power on demand
+`Firm technology` describes facilities that convert a stored (or storable) primary energy source (e.g. diesel, natural gas) into electrical power on demand at a pre-determined rate (i.e. x MW/hour) over a specified time interval (e.g. x hours).
 
 `Flexibility effect` is the impact on efficiency of conventional power plants for day-ahead operations.  [@ueckerdtSystemLCOEWhat2013]
 
@@ -19,6 +19,8 @@ This section contains a few definitions of concepts related to facility benchmar
 `Grid cost` is the cost of connecting to the grid.
 
 `Integration cost` is the sum of balancing cost, grid cost and profile cost. [@ueckerdtSystemLCOEWhat2013]
+
+`Non-firm technology` describes facilities that do not satisfy the full definition of `firm technology`. Variable renewable energy systems such as wind power and solar power are examples of non-firm technology.
 
 `Operating reserve impact` refers to the near real-time adjustments required to respond to frequency disturbances to keep the power system within its target operating envelope. This can be considered as a source of uncertainty. A key source of this uncertainty is the operating of variable renewable energy systems that can suddenly change power output, typically in an uncontrolled manner.  [@ueckerdtSystemLCOEWhat2013]
 

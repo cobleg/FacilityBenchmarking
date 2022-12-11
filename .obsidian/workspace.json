@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Definitions.md",
+                "file": "Integration-cost-estimation.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Definitions.md",
+                "file": "Integration-cost-estimation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Definitions.md",
+                "file": "Integration-cost-estimation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Definitions.md"
+                "file": "Integration-cost-estimation.md"
               }
             }
           },
@@ -171,8 +171,8 @@
   },
   "active": "a55ab161ad4a59ce",
   "lastOpenFiles": [
-    "Integration-cost-estimation.md",
     "Definitions.md",
+    "Integration-cost-estimation.md",
     "LCoE.md",
     "Introduction.md"
   ]
