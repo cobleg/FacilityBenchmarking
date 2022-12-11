@@ -37,11 +37,11 @@ $$
 C_{y,i}=FC_{i} \times CRF_{i}+ FOM_{i}+VC_{y,i} \times FLH_{i}
 $$
 where
-$FC_i$ is the fixed cost of technology $i$
+$FC_i$ is the fixed cost of technology $i$ given an assumed capacity
 $CRF_{i}$ is an amortisation factor determined by the expected operational life of a facility of a specified technology. This is sometimes named the: carrying charge
 $FOM_i$ is the fixed operating and maintenance cost for technology $i$
 $VC_{y,i}$ is the variable cost of in year $y$ for technology $i$ 
-$FLH_i$ is the full-load hour output for technology $i$
+$FLH_i= CF_{y,i} \times 8760$  is the full-load hour output for technology $i$ where ($CF$ is capacity factor) 
 
 Screening curves for non-firm technology are calculated using a modified form of the firm technology screening curve equation
 
