@@ -83,7 +83,7 @@ A load duration curve is a set ordered pairs of hours and demand for electrical 
 A reverse load duration curve defines a set of order pairs of hours and demand from lowest demand to highest demand. 
 
 ## Decomposing integration cost
-
+ 
 
 # References
 Pratama, Yoga W., and Niall Mac Dowell. 2021. “Screening Curve for Valuing Power Generation and Storage Technologies in the 21st Century Grid.” SSRN Scholarly Paper. Rochester, NY. [https://doi.org/10.2139/ssrn.3821841](https://doi.org/10.2139/ssrn.3821841).
